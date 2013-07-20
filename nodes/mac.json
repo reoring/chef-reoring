@@ -1,0 +1,15 @@
+{
+  "user": {
+    "name":  "reoring",
+    "group": "reoring",
+    "home":  "/Users/reoring"
+  },
+  "run_list": [
+    "recipe[mac_os_x]",
+    "recipe[mac_os_x::settings]",
+    "recipe[dmg]",
+    "recipe[homebrew]",
+
+    "recipe[vagrant::default]"
+  ]
+}
